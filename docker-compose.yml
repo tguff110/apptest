@@ -1,10 +1,10 @@
-version: "3.3"
+version: '2'
 services:
   juice:
-    build: ./test/smoke/
-    links:
-      - app
-  app:
-    image: tguff110/juice
-    build: ./
-
+    image: 'tguff110/juice'
+    environment:
+      - "PORT:3000"
+    ports:
+      - "80:3000"
+    volumes:
+      - ./:/app
