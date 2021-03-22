@@ -1,9 +1,6 @@
 version: "3.3"
 services:
-  sut:
-    build: ./test/smoke/
-    links:
-      - app
-  app:
-    image: tguff110/juice:latest
-    build: ./
+  juice:
+  image: tguff110/juice:new
+  ports:
+    - 8080:3000  
