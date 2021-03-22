@@ -3,4 +3,4 @@ services:
   juice:
   image: tguff110/juice:new
   ports:
-    - 8080:3000  
+    - 3000:3000  
