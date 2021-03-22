@@ -5,9 +5,6 @@ services:
     links:
       - app
   app:
-    image: bkimminich/juice-shop:latest-amd64
+    image: tguff110/juice
     build: ./
-
-  ports:
-    - 3000:3000
 
