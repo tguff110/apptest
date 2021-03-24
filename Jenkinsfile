@@ -26,7 +26,5 @@ node {
 
 	}
 
-	stage('DAST Scan') {
-	build 'DAST - BURP'
-	}
+	
 }
