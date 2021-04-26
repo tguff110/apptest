@@ -11,7 +11,7 @@ node {
 	stage('Post-to-dockerhub') {
 	
 	
-	docker.withRegistry('https://registry.hub.docker.com', 'docker_creds') {
+	docker.withRegistry('https://registry.hub.docker.com', 'docker_hub') {
 		app.push("latest")
                  
 		} 
