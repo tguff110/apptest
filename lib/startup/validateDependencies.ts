@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
+import colors = require('colors/safe')
 try {
   var dependencyChecker = require('check-dependencies')
 } catch (err) {
@@ -10,7 +11,6 @@ try {
   process.exit(1)
 }
 const logger = require('../logger')
-import colors = require('colors/safe')
 
 const validateDependencies = async ({ packageDir = '.', exitOnFailure = true } = {}) => {
   let success = true

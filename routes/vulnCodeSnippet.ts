@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: MIT
  */
 
+import fs = require('fs')
 const challenges = require('../data/datacache').challenges
 const path = require('path')
-import fs = require('fs')
 const { FileSniffer, asArray } = require('filesniffer')
 
 exports.serveCodeSnippet = () => async (req, res, next) => {

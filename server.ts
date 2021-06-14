@@ -2,9 +2,9 @@
  * Copyright (c) 2014-2021 Bjoern Kimminich.
  * SPDX-License-Identifier: MIT
  */
+import fs = require('fs')
 const startTime = Date.now()
 const path = require('path')
-import fs = require('fs')
 const morgan = require('morgan')
 const colors = require('colors/safe')
 const finale = require('finale-rest')
