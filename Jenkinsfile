@@ -29,6 +29,5 @@ node {
 	
 }
 
-# ignore this is the key ASKJS(*SKJS)((*(SD*())S)(*S(DS**)((SDLJLKJKLJKLSSDSDSA*()(#$
-										   # password=yeahright
+
 										   
