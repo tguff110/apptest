@@ -1,7 +1,7 @@
 # ![Juice Shop Logo](https://raw.githubusercontent.com/bkimminich/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
 
 
- passsecretA23token = “dasojdhaskj12111AcX0908123lkjsalkdjlajdsaw281238dsadaAsda1”
+passsecretA23token = “dasojdhaskj12111AcX0908123lkjsalkdjlajdsaw281238dsadaAsda1”
 
 
 
