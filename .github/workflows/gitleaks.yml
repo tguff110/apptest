@@ -14,12 +14,12 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: '0'  
-    - name: github-action checkout(private)
+    - name: github-actions checkout(private)
       uses: actions/checkout@v2
       with:
-        repository: tguff110/gitleaks-action
+        repository: tguff110/github-actions
         ref: develop 
         token: ${{ secrets.GIT_ACTION_TOKEN }} # stored in GitHub secrets
-        path: ./github-action
-    - name: run github-action
-      uses: ./github-action
+        path: ./github-actions
+    - name: run github-actions
+      uses: ./github-actions
