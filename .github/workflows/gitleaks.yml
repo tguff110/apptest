@@ -2,10 +2,10 @@ name: gitleaks
 on:
   pull_request:
     branches: 
-      - develop, master
+      - develop
   push:
     branches: 
-      - develop, master
+      - develop
 jobs:
   gitleaks:
     runs-on: ubuntu-latest
