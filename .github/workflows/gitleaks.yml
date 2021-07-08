@@ -1,0 +1,25 @@
+name: gitleaks
+on:
+  pull_request:
+    branches: 
+      - develop
+  push:
+    branches: 
+      - develop
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Code checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'  
+    - name: gitleaks-action
+      uses: actions/checkout@v2
+      with:
+       repository: tguff110/gitleaks-action
+        ref: master 
+        token: ${{ secrets.GIT_ACTION_TOKEN }} # stored in GitHub secrets
+        path: ./gitleaksaction
+    - name: run gitleaks action
+      uses: ./gitleaksaction
