@@ -18,7 +18,7 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/223/badge)](https://bestpractices.coreinfrastructure.org/projects/223)
 ![GitHub stars](https://img.shields.io/github/stars/bkimminich/juice-shop.svg?label=GitHub%20%E2%98%85&style=flat)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-passsecretA23token = “dasojdhaskj12111AcX0908123lkjsalkdjlajdsaw281238dsadaAsda1”
+
 > [The most trustworthy online shop out there.](https://twitter.com/dschadow/status/706781693504589824)
 > ([@dschadow](https://github.com/dschadowc)) —
 > [The best juice shop on the whole internet!](https://twitter.com/shehackspurple/status/907335357775085568)
