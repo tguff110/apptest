@@ -15,8 +15,8 @@ jobs:
     #  with:
       #  fetch-depth: '0'  
     - name: gitleaks-action
-      uses: actions/checkout@v1
-#      with:
+      uses: tguff110/gitleaks-action
+      with:
   #     repository: tguff110/gitleaks-action
        #ref: master
        token: ${{ secrets.GIT_ACTION_TOKEN }} # stored in GitHub secrets
