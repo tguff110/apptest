@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: <yourOrgChangeThis>/gitleaks-action
-        ref: master 
+        ref: develop 
         token: ${{ secrets.GIT_ACTION_TOKEN }} # stored in GitHub secrets
         path: ./gitleaksaction
     - name: run gitleaks action
