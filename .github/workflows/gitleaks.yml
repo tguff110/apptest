@@ -13,11 +13,11 @@ jobs:
     - name: Code checkout
       uses: actions/checkout@v2
       with:
-        fetch-depth: '2'  
+        fetch-depth: '0'  
     - name: gitleaks-action checkout(private)
       uses: actions/checkout@v2
       with:
-        repository: tguff110/gitleaks-action
+        repository: <yourOrgChangeThis>/gitleaks-action
         ref: master 
         token: ${{ secrets.GIT_ACTION_TOKEN }} # stored in GitHub secrets
         path: ./gitleaksaction
