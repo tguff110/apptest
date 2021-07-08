@@ -2,7 +2,7 @@
 
 
 
-
+passsecretA23token = “dasojdhaskj12111AcX0908123lkjsalkdjlajdsaw281238dsadaAsdaa1”
 
 
 
@@ -43,7 +43,7 @@ other security flaws found in real-world applications!
 For a detailed introduction, full list of features and architecture
 overview please visit the official project page:
 <https://owasp-juice.shop>
-passsecretA23token = “dasojdhaskj12111AcX0908123lkjsalkdjlajdsaw281238dsadaAsdaa1”
+
 ## Table of contents
 
 - [Setup](#setup)
